@@ -1,0 +1,14 @@
+@keyframes spin {
+  from { transform: rotateZ(0deg); }
+  to { transform: rotateZ(360deg); }
+}
+
+div.loading {
+  width: 50px;
+  height: 50px;
+  border: 5px solid $primaryColor;
+  border-radius: 50%;
+  border-bottom-color: $secondaryColor;
+  margin: 45px auto 0px;
+  animation: spin 1s linear infinite;
+}

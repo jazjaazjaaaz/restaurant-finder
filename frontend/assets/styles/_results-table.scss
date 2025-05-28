@@ -1,0 +1,28 @@
+div#results-container {
+  margin-top: 45px;
+
+  table#results-table {
+    border-collapse: collapse;
+    border: 3px solid $primaryColor;
+    width: 100%;
+
+    th {
+      &:nth-child(1), &:nth-child(2) { width: 300px; }
+      &:nth-child(3) { width: 200px; }
+      &:nth-child(4) { width: 85px; }
+      &:nth-child(6) { width: 350px; }
+    }
+
+    th, td {
+      color: $secondaryColor;
+      text-align: left;
+      border: 3px solid $primaryColor;
+      padding: 5px;
+    }
+  }
+
+  p#no-results {
+    text-align: center;
+    color: $secondaryColor;
+  }
+}

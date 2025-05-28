@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "CommonJS",
+    "moduleResolution": "node10",
+    "target": "ESNext",
+    "strict": true,
+    "alwaysStrict": true,
+    "jsx": "react",
+    "noImplicitAny": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@/*": ["./frontend/*"],
+      "@components": ["./frontend/components"],
+      "@components/*": ["./frontend/components/*"],
+      "@styles/*": ["./frontend/assets/styles/*"],
+      "@services": ["./frontend/services"],
+      "$services/*": ["./backend/services/*"],
+    },
+  },
+  "exclude": [
+    "./node_modules",
+    "./dist"
+  ]
+}

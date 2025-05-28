@@ -1,0 +1,32 @@
+form#find-restaurant-form {
+  display: grid;
+  grid-template-rows: max-content;
+  row-gap: 10px;
+  width: 500px;
+  margin: auto;
+
+  textarea#find-input {
+    border-radius: 3px;
+    outline: none;
+    border: 3px solid $primaryColor;
+    padding: 5px;
+    color: $secondaryColor;;
+    width: 100%;
+    min-height: 100px;
+    resize: vertical;
+    font-size: 18px;
+  }
+
+  button#find-button {
+    display: inline-block;
+    width: auto;
+    padding: 10px;
+    background-color: #2e83ff;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 5px;
+    margin: auto;
+    cursor: pointer;
+  }
+}

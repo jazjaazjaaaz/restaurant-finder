@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+main#root {
+  display: block;
+  padding: 15px;
+
+  h1#title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: $primaryColor;
+  }
+}
