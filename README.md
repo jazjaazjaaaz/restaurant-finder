@@ -5,6 +5,8 @@ This project is a `monorepo` with `React` on the frontend and `Express / NodeJS`
 ## Requirements
 - node version - `>=20`
 - npm version - `>=v10`
+- openai api key
+- foursquare api key
 
 ## Environment variables
 
