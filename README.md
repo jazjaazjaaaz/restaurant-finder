@@ -30,3 +30,5 @@ FOURSQUARE_API_KEY=xxxxxxxxxxxxxxxxxxxxxxx
 3. Run `npm run frontend` on a separate terminal
 4. Run `npm run backend` on a separate terminal
 5. Open the app on the browser using `http://localhost:{APP_PORT}` 
+
+You could also try the application here: https://codesandbox.io/p/github/jazjaazjaaaz/restaurant-finder
